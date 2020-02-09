@@ -1,0 +1,115 @@
+.header{
+  display: flex;
+  justify-content:  space-around;
+  align-items:  center;
+}
+
+ul.header_nav{
+  display: flex;
+}
+
+.header_nav li{
+  margin-left: 40px;
+}
+
+.mainvisual{
+  height: 400px;
+  background: url(../img/mainbg.png);
+  background-position:  center;
+  background-size:  cover;
+  background-repeat:  no-repeat;
+}
+
+.mainvisual_title{
+font-size:  30px;
+color:  white;
+font-weight: bold;
+text-align: center;
+padding-top: 200px;
+}
+
+.mainvisual_subtitle{
+  font-size: 20px;
+  color:  white;
+  font-weight:  bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.about{
+  text-align: center;
+  margin: 50px 0;
+}
+
+h3.about_title{
+font-size: 30px;
+font-weight: bold;
+color: crimson;
+margin-bottom: 20px;
+}
+
+p.about_subtitle{
+  margin-bottom: 20px;
+  font-size: 16px;
+  }
+
+p.about_text{
+  margin-bottom:  20px;
+}
+
+
+.imgBox{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.imgBox p{
+  width: 25%;
+}
+
+.imgBox p img{
+  width: 100%;
+}
+
+.Course{
+  margin: 50px 0;
+}
+
+.Course_title{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Course_text{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.Course .photo2 img{
+  width: 100%;
+}
+
+.Course2 .Course_comment{
+  background-color: gainsboro;
+  padding: 120px 50px;
+}
+
+.Course_detail{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Course_detail .photo02{
+  width: 50%;
+}
+
+.Course_comment{
+  width: 50%;
+}
+
+
+
